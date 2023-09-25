@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sistema de control de nomina</h2>
+            <p><span>El sistema </span> Administrar empleados, control de asistencia, control de nomina segun las deducciones de ley de Nicaragua INSS - IR - INATEC</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Tecnologias utilizadas</h3>
+                    <ul>
+                        <li>
+                            <strong>Php</strong>
+                        </li>
+                        <li>
+                            <strong>MYSQL</strong>
+                        </li>
+                        <li>
+                            <strong>XAMPP</strong>
+                        </li>
+                        <li>
+                            <strong>Recomendacion</strong>
+                            Se recomienda correr en xampp
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                  <h3>Realizado en 2022</h3>
+                  <br>
+                  <p>Un sistema de control de nómina con PHP y MySQL es una aplicación que permite gestionar eficientemente la información relacionada con los empleados, sus asistencias, cargos y el cálculo de nómina, teniendo en cuenta las deducciones legales aplicables en Nicaragua, como el IR (Impuesto sobre el Renta), el INSS (Instituto Nicaragüense de Seguridad Social) laboral y patronal. A continuación, se describe brevemente cómo podría funcionar este sistema:</p>
+                  <ul>
+                      <li>
+                          <strong>Gestión de Empleados:</strong>
+                          <ul>
+                              <li>El sistema permite registrar y mantener una base de datos de todos los empleados de la empresa. Cada empleado tiene un perfil que incluye información personal, detalles de contacto y ID.</li>
+                          </ul>
+                      </li>
+                      <li>
+                          <strong>Control de Asistencia:</strong>
+                          <p>Se lleva un registro de la asistencia de los empleados, ya sea mediante marcación de entrada/salida o el ingreso manual de horas trabajadas.</p>
+                      </li>
+                      <li>
+                          <strong>Cálculo de Nómina:</strong>
+                          <p>Para calcular la nómina de cada empleado, se multiplican las horas trabajadas por el salario por hora correspondiente. Luego, se aplican las deducciones legales establecidas en Nicaragua. Esto incluye:</p>
+                          <ul>
+                              <li><strong>IR:</strong> Se calcula el IR en función del salario bruto, aplicando las tasas de impuestos vigentes según las leyes fiscales de Nicaragua.</li>
+                              <li><strong>INSS Laboral:</strong> Se calcula la contribución al seguro social del empleado, que es un porcentaje del salario bruto.</li>
+                              <li><strong>INSS Patronal:</strong> Se calcula la contribución al seguro social que la empresa debe pagar por cada empleado.</li>
+                          </ul>
+                      </li>
+                      <li>
+                          <strong>Seguridad y Acceso:</strong>
+                          <p>Se implementa un sistema de autenticación y autorización para garantizar que solo usuarios autorizados puedan acceder y modificar la información del sistema. La contraseña de cada usuario está encriptada.</p>
+                      </li>
+                      <li>
+                          <strong>Credenciales de acceso:</strong>
+                          <ul>
+                              <li>USUARIO: admin</li>
+                              <li>PASSWORD: admin</li>
+                          </ul>
+                      </li>
+                  </ul>
+              </div>
+              </div>
+              </div>
+              
+            <button style="background-color: aliceblue;">
+              <a href="https://drive.google.com/drive/folders/1ZkU4huyjV2lc5xU3y4nvYcLSMnrOEhGx?usp=sharing" target="_blank">
+                Descargar el proyecto <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+              </a>
+                
+            </button>
+        </div>
+
+        <div class="about-model">
+            <img src="img/mi_foto.jpeg" alt="model"/>	
+        </div>
+    </section>
+
+    <div class="main">
+        <h1>Imagenes</h1>
+        <ul class="cards">
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="img/dashboard.png"></div>
+              <div class="card_content">
+                <h2 class="card_title">Dasboard</h2>
+                <br>
+                <p class="card_text">Dasboard del sistema donde se filtran el total de empleados el total de empleados que llegaron a tiempo y tarde</p>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="img/Empleados.png"></div>
+              <div class="card_content">
+                <h2 class="card_title">Control de empleados</h2>
+                <br>
+                <p class="card_text">Donde se agregar el empleado y cargo</p>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="img/cargos.png"></div>
+              <div class="card_content">
+                <h2 class="card_title">Control de cargo</h2>
+                <br>
+                <br>
+                <p class="card_text">En el apartado de control de cargo se asigna el salario por hora del cargo</p>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="img/llegada.png"></div>
+              <div class="card_content">
+                <h2 class="card_title">Control de asistencia</h2>
+                <br>
+                <br>
+                <p class="card_text">En este apartado se coloca el ID del empleado para su registro de entrada/salida</p>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="img/Foto nomina.png"></div>
+              <div class="card_content">
+                <h2 class="card_title">Control de nomina</h2>
+                <p class="card_text">Aca se toma el salario por hora y se calcula segun las horas trabajas del mes y sus deducciones de INSS PATRONAL/LABORAL e IR</p>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="img/logeo.png"></div>
+              <div class="card_content">
+                <h2 class="card_title">Logeo</h2>
+                <p class="card_text">http://localhost/controlnomina/controlnomina/admin/index.php usuario: admin contraseña: admin</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      
+      <h3 class="made_by">Made with ♡</h3>
+</body>
+</html>
